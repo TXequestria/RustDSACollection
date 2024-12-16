@@ -1,4 +1,4 @@
-use std::{mem::forget, ptr::{self, drop_in_place, write, read, NonNull}};
+use std::{mem::forget, ptr::{drop_in_place, write, read, NonNull}};
 use std::ops::{Deref,DerefMut};
 use std::marker::{Sync,Send};
 use std::alloc::{GlobalAlloc,Layout,alloc,dealloc};
